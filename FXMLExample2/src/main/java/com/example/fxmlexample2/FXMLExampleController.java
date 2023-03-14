@@ -1,4 +1,4 @@
-package com.example.fxmlexample;
+package com.example.fxmlexample2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -38,7 +38,9 @@ public class FXMLExampleController {
 
     @FXML
     private void showPokemon() {
-        name = nameField.getText();
+        name = "C:\\Users\\redfl\\Desktop\\bulbasaur.png"; //nameField.getText();
+        pokeImage = new Image("C:\\Users\\redfl\\Desktop\\CIRDLES\\Pokemon\\bulbasaur.png");
+        pokemon.setImage(pokeImage);
         testLabel.setText(pokeNames.get(name));
     }
 }
