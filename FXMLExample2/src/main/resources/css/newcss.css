@@ -20,11 +20,11 @@
 
 
 .background {
-    -fx-background-color: #EAFDFF;
+    -fx-background-color: #9d0007;
 }
 
 .backgroundCalamari {
-    -fx-background-color: #FFF5F5;
+    -fx-background-color: #9d0007;
 }
 
 .label {
@@ -145,10 +145,10 @@
  */
 .button {
     -fx-padding: 5 22 5 22;
-    -fx-border-color: #e2e2e2;
+    -fx-border-color: #000000;
     -fx-border-width: 2;
     -fx-background-radius: 0;
-    -fx-background-color: #ff6961; /*#1d1d1d;*/
+    -fx-background-color: #d20a00; /*#1d1d1d;*/
     -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;
     -fx-text-fill: whitesmoke; /*  #d8d8d8;*/
